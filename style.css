@@ -1,0 +1,87 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(200, 200, 200);
+}
+
+body {
+    background-color: black;
+    padding: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+a:hover {
+    color: rgb(150, 150, 150);
+    transition: 0.5s;
+}
+
+.sidenav {
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    width: 400px;
+    bottom: 0;
+    left: 50%;
+    position: fixed;
+    background: rgb(30, 30, 30);
+    transform: translate(-50%);
+    z-index: 1;
+}
+  
+.sidenav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+}
+
+.sidenav a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.background {
+    position: relative;
+}
+
+.profile {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.profile img {
+    margin-bottom: 30px;
+}
+
+.aboutme {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.projects {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.row {
+    padding-top: 50px;
+}
+
+.col {
+    padding: 24px;
+}
+
+.contacts {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 600px;
+}
+
+.contacts img {
+    margin: 50px
+}
